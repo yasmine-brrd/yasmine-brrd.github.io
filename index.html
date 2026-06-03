@@ -1,0 +1,134 @@
+<p>Ce site a été créé dans le cadre de l'UV NF05 au sein de l'<a
+    href="https://www.utc.fr/">UTC</a></p>
+<h3 style="text-align: center;"><strong>Projet de Gestion des Résultats d’une
+    Classe</strong></h3>
+<h6> </h6>
+<h5 dir="ltr" style="text-align: center;">Introduction</h5>
+<h5 dir="ltr" style="text-align: center;">Création des feuilles de calcul</h5>
+<h5 dir="ltr" style="text-align: center;">Création des tableaux</h5>
+<h5 dir="ltr" style="text-align: center;">Recopie automatique des noms et des
+  prénoms</h5>
+<h5 dir="ltr" style="text-align: center;">Saisie des notes</h5>
+<h5 dir="ltr" style="text-align: center;">Calcul moyennes</h5>
+<h5 dir="ltr" style="text-align: center;">Mise en place des coefficients</h5>
+<h5 dir="ltr" style="text-align: center;">Calcul des moyennes par matière</h5>
+<h5 dir="ltr" style="text-align: center;">Attribution automatique des mentions
+</h5>
+<h5 dir="ltr" style="text-align: center;">Mise en forme conditionnelle</h5>
+<h5 dir="ltr" style="text-align: center;">Création des graphiques</h5>
+<h5 dir="ltr" style="text-align: center;">Analyse des résultats obtenus</h5>
+<h5 dir="ltr" style="text-align: center;">Conclusion</h5>
+<p></p>
+<h4><span style="color: #0000ff;">Introduction</span></h4>
+<p>Dans ce projet, j’ai réalisé un système de gestion de notes à l’aide d’un
+  tableur. Le but était de centraliser les résultats d’une classe, calculer
+  automatiquement les moyennes des étudiants, attribuer des mentions et créer
+  des graphiques permettant d’analyser les résultats plus facilement.</p>
+<h4><span style="color: #0000ff;">Création des feuilles de calcul</span></h4>
+<p>J’ai commencé par créer plusieurs feuilles de calcul : une feuille «
+  Résultats » ainsi que cinq feuilles correspondant aux différentes évaluations
+  : Partiel, Médian, Final, TP et Devoirs. Chaque feuille d’évaluation sert à
+  saisir les notes des étudiants pour un type d’épreuve précis.</p>
+<h4><span style="color: #0000ff;">Création des tableaux</span></h4>
+<p>Dans la feuille « Résultats », j’ai créé un tableau principal contenant les
+  noms et prénoms des étudiants ainsi que les différentes matières : Maths,
+  Physique, Anglais, SVT et Histoire-Géo. Chaque colonne correspond à une
+  matière et chaque ligne correspond à un étudiant.</p>
+<p>J’ai ensuite ajouté une colonne permettant de calculer la moyenne générale de
+  chaque étudiant. Plus bas dans la feuille, j’ai également créé un second
+  tableau permettant de calculer automatiquement la moyenne de la classe pour
+  chaque matière, ainsi que les notes minimales et maximales.</p>
+<h4><span style="color: #0000ff;">Recopie automatique des noms et des
+    prénoms</span></h4>
+<p>Afin d’éviter de saisir plusieurs fois les mêmes informations, j’ai utilisé
+  des références de cellules permettant de recopier automatiquement les noms et
+  prénoms depuis la feuille « Résultats » vers les autres feuilles. Cette
+  méthode permet de modifier les informations une seule fois tout en les mettant
+  à jour automatiquement dans tout le classeur.</p>
+<h4><span style="color: #0000ff;">Saisie des notes</span></h4>
+<p>Les notes ont ensuite été saisies manuellement sur 20 pour chaque étudiant,
+  dans chaque matière et pour chaque type d’évaluation. Chaque feuille contient
+  donc les notes correspondant à une évaluation précise.</p>
+<h4><span style="color: #0000ff;">Calcul moyennes</span></h4>
+<p>Une fois toutes les notes saisies, j’ai calculé automatiquement les moyennes
+  des étudiants pour chaque matière ainsi que leur moyenne générale. J’ai
+  également calculé les statistiques de la classe comme la moyenne générale par
+  matière, la note minimale et la note maximale.</p>
+<p><img class="img-fluid"
+    src="https://moodle.utc.fr/draftfile.php/349747/user/draft/247169192/Capture%20d%E2%80%99e%CC%81cran%202026-06-03%20a%CC%80%2001.29.30.png"
+    alt="Comment calculer des moyennes par matières" width="1200" height="728">
+</p>
+<h4><span style="color: #0000ff;">Mise en place des coefficients</span></h4>
+<p>J’ai ensuite créé une zone dédiée aux coefficients dans la feuille «
+  Résultats ». Les coefficients utilisés sont les suivants : coefficient 3 pour
+  les partiels, coefficient 4 pour les médians, coefficient 5 pour les finaux,
+  coefficient 1 pour les TP et coefficient 2 pour les devoirs.</p>
+<p>Ces coefficients permettent de donner plus d’importance à certaines
+  évaluations dans le calcul final des moyennes.</p>
+<h4><span style="color: #0000ff;">Calcul des moyennes par matière</span></h4>
+<p>Les moyennes finales de chaque matière ont été calculées automatiquement à
+  partir des notes des différentes évaluations et des coefficients associés. Les
+  formules ont ensuite été recopiées vers la droite et vers le bas afin de
+  calculer automatiquement toutes les notes du tableau.</p>
+<p><img class="img-fluid"
+    src="https://moodle.utc.fr/draftfile.php/349747/user/draft/247169192/Capture%20d%E2%80%99e%CC%81cran%202026-06-03%20a%CC%80%2001.30.54.png"
+    alt="Capture%20d%E2%80%99e%CC%81cran%202026-06-03%20a%CC%80%2001.30.54.png">
+</p>
+<h4><span style="color: #0000ff;">Attribution automatique des mentions</span>
+</h4>
+<p>Après le calcul des moyennes générales, j’ai mis en place un système de
+  mentions automatiques. La moyenne générale de chaque étudiant est calculée
+  dans la colonne M et la colonne N affiche automatiquement la mention
+  correspondante.</p>
+<p>Les mentions utilisées sont :</p>
+<ul>
+  <li>Très Bien pour une moyenne comprise entre 14 et 20</li>
+  <li>Bien pour une moyenne comprise entre 12 et 14</li>
+  <li>Moyen pour une moyenne comprise entre 8 et 12</li>
+  <li>Insuffisant pour une moyenne comprise entre 0 et 8</li>
+</ul>
+<p>Cette attribution est réalisée automatiquement grâce à des fonctions
+  conditionnelles.</p>
+<p><img class="img-fluid"
+    src="https://moodle.utc.fr/draftfile.php/349747/user/draft/247169192/Capture%20d%E2%80%99e%CC%81cran%202026-06-03%20a%CC%80%2001.23.52.png"
+    alt="Capture d'écran du fichier Excel représentant les coefficients par examen et la mention rattachée à chaque mention."
+    width="1200" height="254"></p>
+<h4><span style="color: #0000ff;">Mise en forme conditionnelle</span></h4>
+<p>Afin de rendre les résultats plus lisibles, j’ai utilisé la mise en forme
+  conditionnelle sur les moyennes des étudiants dans chaque matière. Pour cela,
+  je suis allé dans le menu « Format », puis « Mise en forme conditionnelle ».
+  J’ai sélectionné la plage de cellules allant de E5 à I10 puis créé plusieurs
+  règles selon les intervalles de notes.</p>
+<p>Chaque catégorie possède une couleur différente afin de visualiser rapidement
+  les bonnes et mauvaises notes.</p>
+<p><img class="img-fluid"
+    src="https://moodle.utc.fr/draftfile.php/349747/user/draft/247169192/Capture%20d%E2%80%99e%CC%81cran%202026-06-03%20a%CC%80%2001.26.48.png"
+    alt="Équation pour mise en forme conditionelle selon la mise en forme"
+    width="1200" height="608"></p>
+<h4><span style="color: #0000ff;">Création des graphiques</span></h4>
+<p>J’ai créé plusieurs graphiques afin de représenter les résultats de manière
+  plus visuelle.</p>
+<p>Le premier graphique est un graphique circulaire permettant de visualiser la
+  répartition des mentions dans la classe. Ce graphique montre la proportion
+  d’étudiants ayant obtenu les mentions « Très Bien », « Bien », « Moyen » ou «
+  Insuffisant ».</p>
+<p>J’ai également créé un graphique à colonnes permettant de comparer, pour
+  chaque matière, la moyenne de la classe, la note minimale et la note maximale.
+</p>
+<p>Voir les [[Graphiques ]]</p>
+<h4><span style="color: #0000ff;">Analyse des résultats obtenus</span></h4>
+<p>Les graphiques permettent d’analyser plus facilement les résultats globaux de
+  la classe. Le graphique à colonnes permet de comparer les performances dans
+  les différentes matières et d’observer les écarts entre les notes minimales et
+  maximales.</p>
+<p>Le graphique circulaire permet quant à lui de visualiser rapidement la
+  répartition des mentions dans la classe et de mieux comprendre les résultats
+  globaux obtenus par les étudiants.</p>
+<h4><span style="color: #0000ff;">Conclusion</span></h4>
+<p>Ce projet m’a permis d’apprendre à utiliser plusieurs fonctionnalités
+  importantes d’un tableur comme les formules automatiques, les références de
+  cellules, les fonctions statistiques, la mise en forme conditionnelle et les
+  graphiques.</p>
+<p>Grâce à ce travail, j’ai pu créer un système complet de gestion des résultats
+  scolaires permettant d’automatiser les calculs et de faciliter l’analyse des
+  performances des étudiants.</p>
